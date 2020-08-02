@@ -1,0 +1,49 @@
+form {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    div {
+        margin: 1em 0;
+    }
+    input[type=file]::-webkit-file-upload-button {
+        color: white;
+        background: #1CB6E0;
+        border: none;
+        padding: 7px 15px;
+        font-weight: 700;
+        border-radius: 3px;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    input[type=text] {
+        display: block;
+        width: 100%;
+        padding: 7px 15px;
+        border:1px solid #000000;
+        border-radius: 5px;
+    }
+
+    input[type=submit] {
+        color: white;
+        background: #1CB6E0;
+        border: none;
+        padding: 7px 15px;
+        font-weight: 700;
+        border-radius: 3px;
+        white-space: nowrap;
+        cursor: pointer;
+        width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    form {
+
+        input[type=text] {
+            background-color: #000000;
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+        }
+    }
+}
